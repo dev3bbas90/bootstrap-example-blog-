@@ -1,0 +1,252 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer{position: relative; bottom: 0px; width: 100%; 
+  text-align: center; font-size: 16px; font-weight: bold;
+   color: white; background-color:black; height: 70px; 
+   margin-bottom: 0px; padding: 20px; 
+  }
+ #hdr_link_select{
+    color:white; font-size: 18px;
+    text-shadow: 1px 2px 4px #ab9d9d;
+  }
+
+   #select_post_b{
+    font-size: 22px;
+    font-weight: bold;
+    color: darkblue;
+  }
+   #select_post_b:hover{
+    cursor: pointer;
+  }
+  .select_post,.ul_control{
+    border-style: none;
+    background-color: #f0f0f0; /*#fdfdfdfd;*/
+    font-size: 16px;
+    font-weight:bold;
+    width: auto;
+    /*border:2px #c3c3c3 solid;*/
+    border:2px #d2d2d2 solid;
+    border-radius: 4px;
+    margin-right: -12px;
+    padding: 0px;
+    padding-right: -15px;
+  }
+   .select_post li{
+    margin-bottom: 3px;
+    list-style: none;
+    width: 100%;
+  }
+   .select_post li:hover{
+    background-color:#c3c3c3;
+     color: darkblue;
+     border-bottom-right-radius: 10px;
+     border-top-left-radius: 10px;
+   }
+   .ul_control{
+    padding: 0px;
+    border-style: none;
+    background-color: whitesmoke;
+   }
+   .ul_control li{
+    text-align: center;
+    background-color: #f0f0f0;
+    margin-bottom: 3px;
+    list-style: none;
+    width: 100%;
+    border:1px #d2d2d2 solid;
+   }
+
+#profile_img{
+  width: 100px; height:140px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+  #select_show_var{
+    display: none;
+  }
+ .fa-arrow-right{
+  color: #337ab7;
+ }
+
+
+
+
+.post-content ,.post-content-hdr{background-color: #d2d4da33; margin-left: -10px; 
+    padding: 15px; padding-top: 1px; padding-bottom: 1px; border-radius: 10px; 
+    margin-bottom: 5px;
+    border-top: 2px solid #353598;
+  }
+.post-content-hdr{padding-top: 2px; margin-bottom: 10px; background-color:#f1f1f1;border:1px solid silver;}
+#post_body{font-size:18px; font-weight: bold; color: #484141; margin-left: 5px; }
+
+#gab_footer footer{
+  position: fixed;bottom: 0px;
+   width: 100%; 
+  text-align: center; font-size: 16px; font-weight: bold;
+   color: white; background-color:black; height: 70px; 
+   margin-bottom: 0px;  
+}
+#by_name , #post_date{
+  margin-left: 25px; 
+}
+#by_name a{
+   color: black; text-decoration-line: underline;
+}
+.capitalize{text-decoration-style: capitalize;}
+
+/*///////////////////////////////////////////////////////////*/
+#readmorecomments{text-decoration-line: underline; margin-top:-5px;}
+#post_date{margin-top: -12px;}
+#hide_sidebar{display: none;}
+#logo_img{
+  width: 65px; height: 55px; border:1px solid #484141; border-radius: 5px;
+  margin-left: -30px;
+   margin-top: -15px; 
+}
+.user-post-img{
+   width: 55px; height: 55px; border:1px solid grey; border-radius: 45%;
+  margin-left: -35px; 
+}
+.about_img{
+   width: 70%; height: 155px; border:1px solid grey; border-radius: 5%;
+}
+.l-post-user{float: left; margin-left: 20px; margin-right: 5px;}
+
+
+
+#logo_txt{background-image: url('upload/car1.jpg');}
+#header{ font-size: 16px; font-weight: bold; }
+.panel-heading{
+  font-size: 16px; font-weight: bold; text-align: center;
+}
+
+/*.///////////////////////////////////////////////////////// must be down to be executed on all.*/
+.img-responsive{width: 100%; height: 300px; margin-bottom: 8px; border-radius: 6px;}
+/*.///////////////////////////////////////////////////////// must be down to be executed on all.*/
+
+ul .dropdown-content li a{color: blue;}
+ul .dropdown-content{color: blue; background-color: #e9ebee;
+ width: 185px; border-radius: 5px;
+}
+ul .dropdown-content li a:hover{
+  color: darkblue;
+  border-radius: 10px;
+}
+#control_table {font-weight: bold; font-size: 16px; text-align: center;
+}
+#control_table tr th{padding:2px; background-color:#e9ebee; border:2px solid  #fbfbfb; 
+  border-radius: 5px; text-align: center;}
+#control_table tr td{background-color: #fdfdff; border:2px solid #e9ebee;  border-radius: 10px;}
+#control_table tr:hover td{background-color: #f5f5f5;}
+
+
+#comment_table, #comments_list{margin-top: 2px; background-color:#d2d4da33; ; margin-left: -10px; 
+    padding: 15px; border-radius: 10px;}/*#e9ebee*/
+#comment_table{ border-bottom: 2px solid #4568b9;}
+#comment_form{
+  width: 98%;
+  height: 30px;
+  border:2px solid #337ab7;
+  background-color: #f9f5f5;
+  color: #484141;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 4px;
+
+}
+#comments_title{ font-size: 16px; font-weight: bold; color:#385898; }
+.ccoment:hover{
+  background-color: #f1efef;
+  border-radius: 5px;
+  padding: 2px;
+}
+.cat_list{
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+ hr.hr_header1  {
+            border-top: 4px dashed grey;
+            margin-bottom: -1px;
+                }
+         hr.hr_header2  {
+            border-bottom: 4px dashed grey;
+            margin-top: -2px;
+                }
+        hr.hr_posts  {
+             border: 1px solid grey;
+             }
+              hr.hr_posts2  {
+             border: 1px solid #ccc;
+             margin-bottom: 0px;
+             width: 0%;
+             }
+          hr.separator_5{margin-top: -1px; margin-bottom:5px; width: 1%;}
+    .dropbtn {
+  color: white;
+  background-color: #222;
+  z-index: -11;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+ 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+/*/////////////////////////////////////////// like / dislike /comment*/
+#likedislike {
+  background-color: #f1f1f1;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-top:7px;
+}
+/*#likedislike a{text-decoration: underline; text-decoration-color: #484141;}*/
+
+.btn-text{
+  border:1px grey solid;
+  border-radius: 6px;
+
+}
+
+.btn-text:hover{
+  cursor: pointer;
+}
+
+.timeline_div{
+  text-align: left;
+}
+ .dislike_div:hover{cursor:pointer; }
+ .like_div:hover{cursor:pointer; }
